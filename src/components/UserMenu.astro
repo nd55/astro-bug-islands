@@ -1,0 +1,19 @@
+---
+const { locale } = Astro.props
+
+// Fake async data fetching
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+await sleep(1000)
+
+console.log(`UserMenu: locale=${locale}`)
+---
+
+<h2>I am a server island {locale}</h2>
+
+<style>
+  h2 {
+    border: 1px solid;
+    padding: 1rem;
+  }
+</style>
