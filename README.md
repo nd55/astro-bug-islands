@@ -1,4 +1,4 @@
-# Server Island Bug inside
+# Server Island Bug inside Svelte slot
 
 see [Issue on Astro GitHub](https://github.com/withastro/astro/issues/12394)
 
